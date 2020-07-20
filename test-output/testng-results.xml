@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126851" started-at="2020-07-20T15:35:44 IST" finished-at="2020-07-20T15:37:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="126851" started-at="2020-07-20T15:35:44 IST" finished-at="2020-07-20T15:37:50 IST">
+      <class name="TalkyExercise.Testcase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="initialize" is-config="true" duration-ms="6275" started-at="2020-07-20T15:35:44 IST" finished-at="2020-07-20T15:35:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="Test1" duration-ms="18612" started-at="2020-07-20T15:35:50 IST" finished-at="2020-07-20T15:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="closeAll" is-config="true" duration-ms="1125" started-at="2020-07-20T15:36:09 IST" finished-at="2020-07-20T15:36:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="initialize" is-config="true" duration-ms="5499" started-at="2020-07-20T15:36:10 IST" finished-at="2020-07-20T15:36:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="Test1" duration-ms="17830" started-at="2020-07-20T15:36:15 IST" finished-at="2020-07-20T15:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="closeAll" is-config="true" duration-ms="1167" started-at="2020-07-20T15:36:33 IST" finished-at="2020-07-20T15:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="initialize" is-config="true" duration-ms="5413" started-at="2020-07-20T15:36:34 IST" finished-at="2020-07-20T15:36:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="Test1" duration-ms="19652" started-at="2020-07-20T15:36:40 IST" finished-at="2020-07-20T15:36:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="closeAll" is-config="true" duration-ms="1124" started-at="2020-07-20T15:36:59 IST" finished-at="2020-07-20T15:37:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="initialize" is-config="true" duration-ms="4914" started-at="2020-07-20T15:37:00 IST" finished-at="2020-07-20T15:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="Test1" duration-ms="19721" started-at="2020-07-20T15:37:05 IST" finished-at="2020-07-20T15:37:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="closeAll" is-config="true" duration-ms="1176" started-at="2020-07-20T15:37:25 IST" finished-at="2020-07-20T15:37:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="initialize" is-config="true" duration-ms="4914" started-at="2020-07-20T15:37:26 IST" finished-at="2020-07-20T15:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="Test1" duration-ms="18209" started-at="2020-07-20T15:37:31 IST" finished-at="2020-07-20T15:37:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:TalkyExercise.Testcase@7ff95560]" name="closeAll" is-config="true" duration-ms="1183" started-at="2020-07-20T15:37:49 IST" finished-at="2020-07-20T15:37:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- TalkyExercise.Testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
