@@ -28,8 +28,8 @@ public class Testcase
 		initializeConfigurations c = new initializeConfigurations(); // Initialize the Configuration File
 		propC = c.returnConfiguration();
 		
-		initializeDriver1 i1 = new initializeDriver1();
-		initializeDriver2 i2 = new initializeDriver2();
+		initializeDriver1 i1 = new initializeDriver1(); //Initialize the first Browser
+		initializeDriver2 i2 = new initializeDriver2(); // Initialize the second browser
 		
 		driver1 = i1.returnDriver();
 		driver2 = i2.returnDriver();
@@ -41,7 +41,7 @@ public class Testcase
 	@Test
 	public void Test1() throws IOException, InterruptedException
 	{
-driver1.get(propC.getProperty("url"));
+		driver1.get(propC.getProperty("url")); // Open the URL in the first Browser
 		
 		homePage h = new homePage(driver1);
 		h.enterRoomName(propC.getProperty("chatRoomName"));
@@ -58,7 +58,7 @@ driver1.get(propC.getProperty("url"));
 		
 		
 		
-		driver2.get(propC.getProperty("url"));
+		driver2.get(propC.getProperty("url")); // Open the URL in the second Browser
 		
 		h = new homePage(driver2);
 		h.enterRoomName(propC.getProperty("chatRoomName"));
@@ -70,10 +70,10 @@ driver1.get(propC.getProperty("url"));
 		r = new chatRoomPage(driver2);
 		r.clickOnChat();
 		
+		
+		// Assertion to make sure the connection is established and Message 
+		//sent from first browser,is received in the second browser 
 		Assert.assertTrue(propC.getProperty("messageText").equals(r.getMessage()));
-
-		
-		
 	}
 	
 	@AfterMethod
